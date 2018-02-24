@@ -1,0 +1,792 @@
+fileFormatVersion: 2
+guid: f676221b1e32e6343ad4df7f85506d21
+timeCreated: 1519226846
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: samurai (sheathed)_0
+    21300002: samurai (sheathed)_1
+    21300004: samurai (sheathed)_2
+    21300006: samurai (sheathed)_3
+    21300008: samurai (sheathed)_4
+    21300010: samurai (sheathed)_5
+    21300012: samurai (sheathed)_6
+    21300014: samurai (sheathed)_7
+    21300016: samurai (sheathed)_8
+    21300018: samurai (sheathed)_9
+    21300020: samurai (sheathed)_10
+    21300022: samurai (sheathed)_11
+    21300024: samurai (sheathed)_12
+    21300026: samurai (sheathed)_13
+    21300028: samurai (sheathed)_14
+    21300030: samurai (sheathed)_15
+    21300032: samurai (sheathed)_16
+    21300034: samurai (sheathed)_17
+    21300036: samurai (sheathed)_18
+    21300038: samurai (sheathed)_19
+    21300040: samurai (sheathed)_20
+    21300042: samurai (sheathed)_21
+    21300044: samurai (sheathed)_22
+    21300046: samurai (sheathed)_23
+    21300048: samurai (sheathed)_24
+    21300050: samurai (sheathed)_25
+    21300052: samurai (sheathed)_26
+    21300054: samurai (sheathed)_27
+    21300056: samurai (sheathed)_28
+    21300058: samurai (sheathed)_29
+    21300060: samurai (sheathed)_30
+    21300062: samurai (sheathed)_31
+    21300064: samurai (sheathed)_32
+    21300066: samurai (sheathed)_33
+    21300068: samurai (sheathed)_34
+    21300070: samurai (sheathed)_35
+    21300072: samurai (sheathed)_36
+    21300074: samurai (sheathed)_37
+    21300076: samurai (sheathed)_38
+    21300078: samurai (sheathed)_39
+    21300080: samurai (sheathed)_40
+    21300082: samurai (sheathed)_41
+    21300084: samurai (sheathed)_42
+    21300086: samurai (sheathed)_43
+    21300088: samurai (sheathed)_44
+    21300090: samurai (sheathed)_45
+    21300092: samurai (sheathed)_46
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: samurai (sheathed)_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 354
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 353
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 305
+        width: 23
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 354
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 354
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 354
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 307
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_7
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 305
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 307
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 307
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_10
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 307
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 258
+        width: 18
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 259
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_13
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 258
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 258
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_15
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 258
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_16
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 258
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_17
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 210
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_18
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 210
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 210
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_20
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 210
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_21
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 210
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_22
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 210
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_23
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 162
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_24
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 161
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_25
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 161
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_26
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 162
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_27
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 161
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_28
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 161
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_29
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 114
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_30
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 114
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_31
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 115
+        width: 45
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_32
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 114
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_33
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 114
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 115
+        width: 45
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 66
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_36
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 65
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_37
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 65
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_38
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 66
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_39
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 65
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_40
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 65
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_41
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 24
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 24
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_43
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 24
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_44
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 24
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_45
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 24
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samurai (sheathed)_46
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 24
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
