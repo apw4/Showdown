@@ -5,23 +5,36 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
 
+    //Floats
     public float maxSpeed = 10f;
+    public float jumpPower = 30f;
+    public float timer = 60;
+
     public Text coincountText;
     public Text timesup;
     bool facingRight = true;
-    private Rigidbody2D rb2d;
-    public float timer = 60;
-
+    
+    //Booleans
+    public bool canDoubleJump;
     public bool grounded;
-    public float jumpPower = 30f;
-   
+
+    //Stats
+    public int curHealth;
+    public int maxHealth = 5;
+
+    //References
+    private Rigidbody2D rb2d;
     Animator anim;
     private int coincount;
 
     // Use this for initialization
     void Start () {
-        rb2d = GetComponent<Rigidbody2D> ();
+        rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        curHealth = maxHealth;
+
+
         coincount = 0;
         coincountText.text = "Score: " + coincount.ToString ();
     }
@@ -29,15 +42,39 @@ public class PlayerController : MonoBehaviour {
     void Update()
     {
         anim.SetBool("Grounded",grounded);
+
+        if(curHealth > maxHealth)
+        {
+            curHealth = maxHealth;
+        }
+
+        if (curHealth <= 0)
+        {
+            Die();
+        }
     }
     // Update is called once per frame
     void FixedUpdate () {
         float moveHorizontal = Input.GetAxis("Horizontal");
-        anim.SetFloat("Speed", Mathf.Abs(moveHorizontal));
-
-        if ((Input.GetKeyDown(KeyCode.W) || Input.GetButtonDown("Jump")) && grounded)
+        anim.SetFloat("Speed", Mathf.Abs(rb2d.velocity.x));
+        
+        //Jump Controls
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetButtonDown("Jump")))
         {
-            rb2d.AddForce(Vector2.up * jumpPower);
+            if (grounded)
+            {
+                rb2d.AddForce(Vector2.up * jumpPower);
+                canDoubleJump = true;
+            }
+            else
+            {
+                if (canDoubleJump)
+                {
+                    canDoubleJump = false;
+                    rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
+                    rb2d.AddForce(Vector2.up * jumpPower);
+                }
+            }
         }
 
         rb2d.velocity = new Vector2(moveHorizontal * maxSpeed, rb2d.velocity.y);
@@ -55,6 +92,17 @@ public class PlayerController : MonoBehaviour {
             Flip();
         else if (moveHorizontal < 0 && facingRight)
             Flip();
+
+        //Inertia and Friction Controls
+        Vector3 easeVelocity = rb2d.velocity;
+        easeVelocity.y = rb2d.velocity.y;
+        easeVelocity.z = 0.0f;
+        easeVelocity.x *= 0.75f;
+
+        if (grounded)
+        {
+            rb2d.velocity = easeVelocity;
+        }
 	}
 
     void Flip ()
@@ -73,5 +121,11 @@ public class PlayerController : MonoBehaviour {
             coincount += 1;
             coincountText.text = "Score: " + (coincount*100).ToString();
         }
+    }
+
+    void Die()
+    {
+        //Restart
+        Application.LoadLevel(Application.loadedLevel);
     }
 }
