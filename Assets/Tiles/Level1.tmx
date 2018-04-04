@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="100" height="20" tilewidth="32" tileheight="32" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" source="terraintrans.tsx"/>
+ <tileset firstgid="91" source="Jungle_slope.tsx"/>
+ <tileset firstgid="127" source="Jungle_guide.tsx"/>
+ <tileset firstgid="823" source="Forest_Tree.tsx"/>
+ <layer name="Black 2" width="100" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0bENACAMA7Ccxlks/NbTeIGpHbDnSImUBACg30lqekOnnazB7nrJ/fbJhNcvAAAAAIAZFzDcBaM=
+  </data>
+ </layer>
+ <layer name="Black Tiles" width="100" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEKwjAUh/F/7UGaUcfewEM5dBE8mov38BpuHZoHwUESaF5M+X7w6BLSkI9SCQCA47pJj9Zn8BZaHyDTXbqWrJ9PfbactDVZpGerMyyZd13apEfWw+Y1+L4/t0XqMxy3jfW4xKnp7dy6R9YD/6F2D3qXqXFfY9wz/Tchz3ePaYc9z9r+RfYMP1cjVbNHEN9HKbs7s2ePdOBrjAMAAHysUMMPhg==
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="100" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztlbtOwzAUho/dtUJ0QIKlMFQUNvo+MIJg4iIqAWXIyMh1BPE68BAgIfEK3Cb+g22RtCEVdlI74F/6lPSi+PId5whJfz4douRdENkw6czBhwjZCeb26LgvdfLRkwE7wZxmwav4uia2j6mTjyX6dhJUtIsVqfblA9wJu7pZlHYufPlYJuVkE3W0SvZ1WGbSLpgTdU4SrpvDXziBv6SOPubBPlywE17vlafzcqDqIuOCudafuW7OwBFYH1M77AL+khtZr/eV8cFhJ2a99xXO50GoPp1mgDFP5aiLPM7xn13MdQdsgw08s6kx9+yi5+AiBB8mvN6nCufzIlSfTnNh8V45hosB2MMzZzTm3tWFbx9MW18XSPXQMoPeRGukzsIU9r6lcd2zKpl0hn10U991ShrDeOC+sEXqLLyJ8F349sEp2we7MB7Qm6hPap3PNTgbIfpoOsIujIe+HoM9TMf3VW6KfGAfb02PtGXYBcc4iD5GU+SD0y7gslH8e/uHMdPrjT6yGeej60heWjKL7z0PyUcVafieQExMTExMzD/LJ58K6QE=
+  </data>
+ </layer>
+</map>

@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class attackTrigger : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public int dmg = 5;
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.isTrigger != true && col.CompareTag("Enemy"))
+        {
+            col.SendMessageUpwards("Damage", dmg);
+        }
+
+        if (col.CompareTag("Projectile"))
+        {
+            col.GetComponent<Rigidbody2D>().velocity *= -1;
+        }
+    }
 }

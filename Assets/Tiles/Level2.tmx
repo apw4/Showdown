@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="100" height="30" tilewidth="128" tileheight="128" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" source="Desert Tileset.tsx"/>
+ <layer name="Tile Layer 1" width="100" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztl1sOgyAQRce+ax92Sd3/qopJSQbCIFAMI70nuR82QQdOB5QIAAAAAADU5NG6AOAwEr1b1wCAJm4m929Ae7iPsXEtwPWB87w98KEL+NAFfOgCPnQBH7qAD1304GMg99tpvr4mROP3Vg8+DiZHds3nFIs/35PJ2eRS6bcSturD7wlOqY9W2H5+mkykr74U/J7gbM2HVO/OZE/r7r3+3p5zHzt2aYwGH6lnmN8TpYnNRdpLh8Czc9bErvPSGA0+UmuolZK5hGoM3Yf/t3gvzHvUi+R9KvYc+HAJ9YZ0n1/fMf7RR+isie3rUn2hNbF9kNILOc/q2UeqIxvpzFpjTeCjPPChK/Ah5wMqWBjg
+  </data>
+ </layer>
+</map>

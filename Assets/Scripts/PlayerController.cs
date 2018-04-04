@@ -88,9 +88,9 @@ public class PlayerController : MonoBehaviour {
 
         }
            
-        if (moveHorizontal > 0 && !facingRight)
+        if (moveHorizontal > 0.1f && !facingRight)
             Flip();
-        else if (moveHorizontal < 0 && facingRight)
+        else if (moveHorizontal < -0.1f && facingRight)
             Flip();
 
         //Inertia and Friction Controls
@@ -105,8 +105,7 @@ public class PlayerController : MonoBehaviour {
         }
 	}
 
-    void Flip ()
-    {
+    void Flip (){
         facingRight = !facingRight;
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
@@ -128,4 +127,28 @@ public class PlayerController : MonoBehaviour {
         //Restart
         Application.LoadLevel(Application.loadedLevel);
     }
+
+    public void Damage(int dmg)
+    {
+        curHealth -= dmg;
+        gameObject.GetComponent<Animation>().Play("samRedFlash");
+    }
+
+    public IEnumerator Knockback(float knockDur, float knockPwr, Vector3 knockDir)
+    {
+        float timer = 0;
+
+        while (knockDur > timer)
+        {
+            timer += Time.deltaTime;
+
+            rb2d.velocity = new Vector2(0, 0);
+
+            rb2d.AddForce(new Vector3(knockDir.x * -1000, knockDir.y * knockPwr, transform.position.z));
+        }
+
+        yield return 0;
+    }
+
+
 }
